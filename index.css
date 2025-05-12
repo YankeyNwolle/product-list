@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* dessert*/
+
+.container {
+    padding: 25px 30px 15px 50px;
+}
+
+.dessert img {
+    border-radius: 10px;
+    width: 25%;
+}
