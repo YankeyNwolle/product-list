@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="./assets/fonts/static/bootstrap.min.css">
   <title>Frontend Mentor | Product list with cart</title>
+
+  <script src="index.js"></script>
 </head>
 <body>
 
@@ -25,18 +27,15 @@
       </p>
     </div>
 
-
-
-     
     <div class="vanilla">
       <img src="./assets/images/image-creme-brulee-desktop.jpg">
-     <button>Add to Cart</button> 
+      <button type="button"> Add to Cart</button>
      <p>
-      <span>Crème Brûlée</span>
-      <span>
+      <span class="title-plat">Crème Brûlée</span>
+      <span class="name-plat">
       Vanilla Bean Crème Brûlée
       </span>
-      <span>
+      <span class="price">
       $7.00
       </span>
      </p>
@@ -69,17 +68,37 @@
     </div>
    
     <div class="baklava">
-      Pistachio Baklava
-      Baklava
-      4.00
-      Add to Cart
+      <img src="./assets/images/image-baklava-desktop.jpg">
+      <button>Add to Cart</button> 
+      <p> 
+        <span>
+        Pistachio Baklava
+        </span>
+        <span>
+        Baklava
+
+        </span>
+        <span>
+        4.00
+        </span>
+      </p>
+     
     </div>
       
     <div class="lemon">
-      Lemon Meringue Pie
+      <img src="./assets/images/image-meringue-desktop.jpg">
+      <button type="button"> Add to Cart</button>
+      <p>
       Pie
-      5.00
-      Add to Cart
+        <span>
+      Pie
+        </span>
+        <span class="">
+      Lemon Meringue Pie
+        </span>
+        <span class="price"> 5.00</span>
+      </p>
+     
     </div>
       
     <div class="cake">
@@ -98,15 +117,14 @@
     </div>
      
     <div class="cotta">
+
       Vanilla Panna Cotta
       Panna Cotta
       6.50
     </div>
      
     </div>
-    <div class="add-cart">
       Add to Cart
-    </div>
  
     <div class="cart">
       Your Cart (<!-- Quantity -->)
